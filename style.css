@@ -65,7 +65,7 @@ nav ul {
 }
 
 nav ul li {
-    float: left;
+    float: right;
 }
 
 nav li a {
@@ -130,3 +130,7 @@ nav li a.active {
 color: #aa0404;
 }
 
+.KDFP{
+    background-color: rgba(255, 255, 255, 0.479);
+    width: 800px;
+}
