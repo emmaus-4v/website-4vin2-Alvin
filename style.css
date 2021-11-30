@@ -1,6 +1,6 @@
 /* Debug */
-nav, article, footer {
-    border: solid 2px red;
+nav, article, footer, header {
+    border: solid red;
 }
 
 /* Basislayout */
@@ -8,7 +8,8 @@ nav, article, footer {
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #979797;  
+    background-color: #cfcfcf;  
+
     
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
@@ -24,22 +25,25 @@ main {
 
 
 article {
-padding: 20px;
+padding: 0px;
 float: right;
+height: 90%;
 
 }
 
 
 header {
-    color: skyblue;
+    
     text-align: center;
-    height:10%;
+    height:9%;
+ 
+
 }
 
 
 footer {
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 1%;
     
 }
 
@@ -57,6 +61,7 @@ article {
 
 footer {
     clear:both;
+
 }
 /* specifieke stijlen */
 
@@ -160,11 +165,32 @@ color: #aa0404;
 }
 
 #olas{
-    width: 400px;
+    height: 300px;
     float: right;
+    margin: 10px;
+    border: groove;
+    border-color:red;
+    border-width: 5px;
 }
 
 #dagang{
-    width: 400px;
+    height: 300px;
     float: right;
+    margin: 10px;
+    border: groove;
+    border-color:red;
+    border-width: 5px;
+
+}
+
+.headerimg{
+    height: 77px;
+    position: absolute;
+    top: 0%;
+    width: 90%;
+    left: 3%;
+}
+
+.Cars{
+    position: absolute;
 }
