@@ -1,6 +1,10 @@
 /* Debug */
-nav, article, footer, header {
-    border: solid red;
+
+/* handige instelling */
+* {
+    box-sizing: border-box;
+    border: 2px dotted black;
+    margin: 0px;
 }
 
 /* Basislayout */
@@ -13,6 +17,7 @@ html, body {
     
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
+    background-image: url("afbeeldingen/lmao.jpeg");
 }
 
 
@@ -21,22 +26,16 @@ main {
     width: 80%;
     height: 80%;
     position: relative;
-}
-
-
-article {
-padding: 0px;
-float: right;
-height: 90%;
+    
 
 }
-
 
 header {
     
     text-align: center;
     height:9%;
- 
+    background-image: url("afbeeldingen/lightning mc.jpeg");
+    background-position: 0%;
 
 }
 
@@ -52,11 +51,17 @@ footer {
 nav {
     float:left;
     width: 200px;
+    border: 2px dotted red;
 }
 
 article {
-    float:left;
+    float: right;
     width:calc(100% - 248px); /* 100% minus nav */
+    height: 90%;
+    background-color: #a02323;
+    
+
+
 }
 
 footer {
@@ -83,70 +88,46 @@ a:hover {
     text-decoration: underline;
 }
 
-
-/* navigatiebalk */
-nav ul {
-    list-style-type: none;
-    margin: auto;
-    padding: 0;
-    background-color: #dddddd;
-    overflow: hidden;
-}
-
-nav ul li {
-    float: left;
-}
-
-nav li a {
-    display: block;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-nav li a:hover {
-    background-color: #aaaaaa;
-}
-
-nav li a.active {
-    background-color: skyblue;
-}
-
-/* Dropdown Button */
+/* naigatie blok */
+/*
 .dropbtn {
-    background-color: #aa0404;
+    background-color: #a02323;
     color: white;
-    padding: 20px;
+    padding: 50px;
     font-size: 16px;
     border: none;
     float: left;
   }
-  
+  */
   /* The container <div> - needed to position the dropdown content */
-  .dropdown {
+  /*.dropdown {
     position: relative;
     display: inline-block;
   }
-  
+  */
   /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
+  /*.dropdown-content {
     display: none;
     position: absolute;
-    background-color: #aa0404;
+    background-color: #a02323;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
-  
+  */
   /* Links inside the dropdown */
-  .dropdown-content a {
+  /*.dropdown-content a {
     color: rgb(255, 255, 255);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
   }
-  
+  */
+
+  .menukeuze {
+      display:block;
+      width:100%;
+  }
   /* Change color of dropdown links on hover */
   .dropdown-content a:hover {background-color: #9b2a2a;}
   
@@ -157,7 +138,7 @@ nav li a.active {
   .dropdown:hover .dropbtn {background-color: #9b2a2a;}
 
 .Cars{
-color: #aa0404;
+color: #ffffff;
 }
 
 .KDFP{
@@ -170,7 +151,7 @@ color: #aa0404;
     margin: 10px;
     border: groove;
     border-color:red;
-    border-width: 5px;
+    border-width: 10px;
 }
 
 #dagang{
@@ -179,7 +160,7 @@ color: #aa0404;
     margin: 10px;
     border: groove;
     border-color:red;
-    border-width: 5px;
+    border-width: 10px;
 
 }
 
@@ -192,5 +173,10 @@ color: #aa0404;
 }
 
 .Cars{
-    position: absolute;
+    background-color: #9b2a2a;
+}
+
+.maintext{
+    padding: 10px;
+    color: white;
 }
