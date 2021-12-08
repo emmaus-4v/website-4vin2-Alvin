@@ -60,6 +60,8 @@ https://www.w3schools.com/cssref/default.asp
 https://www.w3schools.com/howto/default.asp
 - informatie van Emmauscollege over website opdracht
 https://emmauscollege.github.io/informatica/website/
+- voorbeeld layout
+https://emmauscollege.github.io/showcases/
 
 ## Credits
 - Website template van het Emmauscollege Rotterdam https://github.com/emmauscollege/4HV-website-template

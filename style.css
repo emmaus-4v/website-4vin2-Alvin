@@ -1,20 +1,12 @@
 /* Debug */
 
 /* handige instelling */
-* {
-    box-sizing: border-box;
-    border: 2px dotted black;
-    margin: 0px;
-}
 
 /* Basislayout */
 
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #cfcfcf;  
-
-    
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
     background-image: url("afbeeldingen/lmao.jpeg");
@@ -50,8 +42,8 @@ footer {
 
 nav {
     float:left;
-    width: 200px;
-    border: 2px dotted red;
+    width: 16.3%;
+  
 }
 
 article {
@@ -87,55 +79,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
-/* naigatie blok */
-/*
-.dropbtn {
-    background-color: #a02323;
-    color: white;
-    padding: 50px;
-    font-size: 16px;
-    border: none;
-    float: left;
-  }
-  */
-  /* The container <div> - needed to position the dropdown content */
-  /*.dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  */
-  /* Dropdown Content (Hidden by Default) */
-  /*.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #a02323;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  */
-  /* Links inside the dropdown */
-  /*.dropdown-content a {
-    color: rgb(255, 255, 255);
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  */
-
-  .menukeuze {
-      display:block;
-      width:100%;
-  }
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #9b2a2a;}
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block;}
-  
- 
-  .dropdown:hover .dropbtn {background-color: #9b2a2a;}
 
 .Cars{
 color: #ffffff;
@@ -179,4 +122,34 @@ color: #ffffff;
 .maintext{
     padding: 10px;
     color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    background-color: #dddddd;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #aaaaaa;
+}
+nav li a {
+    background-color: rgba(255,0,0,50%);
+}
+nav li a.active {
+    background-color: skyblue;
 }
