@@ -31,6 +31,12 @@ header {
 
 }
 
+.carsimages{
+    overflow: hidden;
+    
+
+}
+
 
 footer {
     text-align: center;
@@ -41,8 +47,8 @@ footer {
 /* Blokkenlayout */
 
 nav {
-    float:left;
-    width: 16.3%;
+    float:right;
+    width: 15.9%;
   
 }
 
@@ -50,7 +56,8 @@ article {
     float: right;
     width:calc(100% - 248px); /* 100% minus nav */
     height: 90%;
-    background-color: #a02323;
+    background-color: rgba(150,11,11,70%);
+    
     
 
 
@@ -95,6 +102,7 @@ color: #ffffff;
     border: groove;
     border-color:red;
     border-width: 10px;
+    justify-content: center;
 }
 
 #dagang{
@@ -104,6 +112,8 @@ color: #ffffff;
     border: groove;
     border-color:red;
     border-width: 10px;
+    justify-content: center;
+
 
 }
 
@@ -117,6 +127,7 @@ color: #ffffff;
 
 .Cars{
     background-color: #9b2a2a;
+    padding: 3px;
 }
 
 .maintext{
