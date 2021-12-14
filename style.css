@@ -28,6 +28,7 @@ header {
     height:9%;
     background-image: url("afbeeldingen/lightning mc.jpeg");
     background-position: 0%;
+    padding: 1%;
 
 }
 
@@ -57,9 +58,7 @@ article {
     width:calc(100% - 248px); /* 100% minus nav */
     height: 90%;
     background-color: rgba(150,11,11,70%);
-    
-    
-
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
@@ -95,7 +94,7 @@ color: #ffffff;
     width: 900px;
 }
 
-#olas{
+.fotosvancars{
     height: 300px;
     float: right;
     margin: 10px;
@@ -103,18 +102,8 @@ color: #ffffff;
     border-color:red;
     border-width: 10px;
     justify-content: center;
-}
-
-#dagang{
-    height: 300px;
-    float: right;
-    margin: 10px;
-    border: groove;
-    border-color:red;
-    border-width: 10px;
-    justify-content: center;
-
-
+    display: inline;
+    overflow: scroll;
 }
 
 .headerimg{
