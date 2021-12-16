@@ -101,9 +101,7 @@ color: #ffffff;
     border: groove;
     border-color:red;
     border-width: 10px;
-    justify-content: center;
-    display: inline;
-    overflow: scroll;
+    margin-right: 20px;
 }
 
 .headerimg{
@@ -142,14 +140,26 @@ nav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 nav li a:hover {
     background-color: #aaaaaa;
+    transition: 0.5s;
 }
 nav li a {
     background-color: rgba(255,0,0,50%);
 }
 nav li a.active {
     background-color: skyblue;
+}
+
+.video{
+    padding:10px
+
+}
+
+.lifeisahighway{
+padding: 10px;
+
 }
